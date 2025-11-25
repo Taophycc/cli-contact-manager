@@ -6,24 +6,24 @@
 
 > A robust, type-safe command-line application for managing contacts, built with modern Node.js and TypeScript.
 
-## 📖 Overview
+## Overview
 This project is a terminal-based tool that allows users to capture, validate, and persist contact information to a local CSV database. It demonstrates the transition from simple scripting to structured **Object-Oriented Programming (OOP)** in a Node.js environment.
 
 It features a polished UI with color-coded prompts, loading spinners, and ASCII art headers.
 
-## ✨ Key Features
-* **🛡️ Strong Input Validation:**
+## Key Features
+* **Strong Input Validation:**
     * Uses Regex to strictly enforce Email (`user@domain.com`) and Phone (`11 digits`) formats.
     * Prevents empty or whitespace-only inputs.
-* **💾 Data Persistence:**
+* **Data Persistence:**
     * Automatically generates a `contacts.csv` file.
     * Appends new records without overwriting existing data.
     * Handles CSV escaping (e.g., names with commas) automatically via `csv-writer`.
-* **🎨 Professional UX:**
+* **Professional UX:**
     * **Chalk:** Color-coded feedback (Red for errors, Cyan for prompts, Green for success).
     * **Ora:** Animated spinners during file I/O operations.
     * **Figlet:** ASCII art startup banner.
-* **🏗️ Architecture:**
+* **Architecture:**
     * Built using TypeScript Classes (`class Person`) and Interfaces (`interface PersonType`).
     * Automated timestamp generation (`createdAt`).
 
@@ -37,7 +37,7 @@ It features a polished UI with color-coded prompts, loading spinners, and ASCII 
 | **Storage** | `csv-writer` | structured CSV Data Handling |
 | **Styling** | `chalk`, `ora`, `figlet` | Terminal UI & UX |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * Node.js installed (v18 or higher)
