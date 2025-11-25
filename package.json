@@ -1,0 +1,30 @@
+{
+  "name": "csv_app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An app to write contact information to a csv file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "Taofeek Kassim",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "csv-writer": "^1.6.0",
+    "fastify": "^5.6.2",
+    "figlet": "^1.9.4",
+    "ora": "^6.3.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^24.10.1",
+    "@types/prompt-sync": "^4.2.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
