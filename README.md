@@ -47,7 +47,7 @@ It features a polished UI with color-coded prompts, loading spinners, and ASCII 
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/your-username/cli-contact-manager.git](https://github.com/your-username/cli-contact-manager.git)
+    git clone https://github.com/taophycc/cli-contact-manager.git
     cd cli-contact-manager
     ```
 
